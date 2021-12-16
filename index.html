@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="./style.css">
+    <title>Urna Eletrônica</title>
+</head>
+
+<body>
+    <div class="urna">
+        <div class="tela">
+
+            <div class="d-1">
+                <div class="d-1__left">
+                    <div class="d-1-1">
+                        <span>SEU VOTO PARA</span>
+                    </div>
+                    <div class="d-1-2">
+                        <span>VEREADOR</span>
+                    </div>
+                    <div class="d-1-3">
+                        <div class="numero">3</div>
+                        <div class="numero">8</div>
+                        <div class="numero">6</div>
+                        <div class="numero">2</div>
+                    </div>
+                    <div class="d-1-4">
+                        Nome: Diego <br>
+                        Partido: halalu
+                    </div>
+                </div>
+
+
+                <div class="d-1__right">
+                    <div class="d-1-img">
+                        <img src="./images/99_2.jpg">
+                        Vereador Diego
+                    </div>
+                </div>
+            </div>
+
+            <div class="d2">
+                Aperte a tecla: <br>
+                CONFRIMA para CONFIRMAR o voto <br>
+                CORRIGE para REINICIAR o voto
+            </div>
+        </div>
+
+        <div class="teclado">
+            <div class="teclado__linha">
+                <div class="teclado__btn" onclick="clique('1')">1</div>
+                <div class="teclado__btn" onclick="clique('2')">2</div>
+                <div class="teclado__btn" onclick="clique('3')">3</div>
+            </div>
+
+            <div class="teclado__linha">
+                <div class="teclado__btn" onclick="clique('4')">4</div>
+                <div class="teclado__btn" onclick="clique('5')">5</div>
+                <div class="teclado__btn" onclick="clique('6')">6</div>
+            </div>
+
+            <div class="teclado__linha">
+                <div class="teclado__btn" onclick="clique('7')">7</div>
+                <div class="teclado__btn" onclick="clique('8')">8</div>
+                <div class="teclado__btn" onclick="clique('9')">9</div>
+            </div>
+
+            <div class="teclado__linha">
+                <div class="teclado__btn" onclick="clique('0')">0</div>
+            </div>
+
+            <div class="teclado__linha">
+                <div class="teclado__btn branco" onclick="voto_branco()">BRANCO</div>
+                <div class="teclado__btn corrige" onclick="corrige()">CORRIGE</div>
+                <div class="teclado__btn confirma" onclick="confirma()">CONFIRMA</div>
+            </div>
+        </div>
+    </div>
+
+<script src="./etapas.js"></script>
+<script src="./app.js"></script>
+</body>
+
+</html>
