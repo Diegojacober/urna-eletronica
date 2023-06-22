@@ -4,35 +4,43 @@ let etapas = [
         numeros: 4,
         candidatos: [
             {
-                numero: '4002',
+                numero: '1895',
                 nome: 'Diego',
+                partido: 'O melhor de todos',
+                fotos: [
+                    { url: 'diego.jpeg', legenda: 'Diego Alencar' }
+                ]
+            },
+            {
+                numero: '1879',
+                nome: 'Bona',
                 partido: 'Lindo',
                 fotos: [
-                    { url: '99_2.jpg', legenda: 'Vereador Diego' }
+                    { url: 'thor.webp', legenda: 'O melhorzinho que ta tendo' }
                 ]
             },
             {
-                numero: '0906',
-                nome: 'Ana Clara',
-                partido: 'AIAIAIUIUI',
+                numero: '1876',
+                nome: 'Nicole Toretto',
+                partido: 'HB20',
                 fotos: [
-                    { url: '84_2.jpg', legenda: 'Vereadora Ana' }
+                    { url: 'nicole.jpeg', legenda: 'A melhor (exceto na baliza)' }
                 ]
             },
             {
-                numero: '1234',
-                nome: 'Pedro Pereira',
-                partido: 'PEDRO',
+                numero: '1887',
+                nome: 'Ângelo',
+                partido: 'Meninas Malvadas',
                 fotos: [
-                    { url: '99.jpg', legenda: 'Vereador Pedro' }
+                    { url: 'angelo.jpg', legenda: 'Ângelo do Prado' }
                 ]
             },
-            {
-                numero: '1717',
-                nome: 'EDIVALDO',
-                partido: 'MATA-MENDINGO',
+             {
+                numero: '1897',
+                nome: 'Diego Cástan',
+                partido: 'Rap é compromisso',
                 fotos: [
-                    { url: '84.jpg', legenda: 'Vereador Éd' }
+                    { url: 'diego.webp', legenda: 'Diego, o lindo' }
                 ]
             }
         ]
