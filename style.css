@@ -21,6 +21,7 @@ body{
     background-color: #dbd5c9;
     padding: 30px;
     display: flex;
+    margin-top: 50px;
 }
 
 .tela{
@@ -144,17 +145,18 @@ body{
     line-height:45px;
 }
 .d-1__right{
-    width: 90px;
+    width: 130px;
 }
 .d-1-img{
     border: 1px solid black;
+    border-radius 20px;
     background-color: white;
     text-align: center;
     font-size: 14px;
 }
 .d-1-img img{
     width: 100%;
-    height: 120px;
+    height: 130px;
 }
 
 .d2{
